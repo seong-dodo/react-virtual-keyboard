@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.input {
+  width: 1000px;
+  height: 200px;
+  font-size: 1.5rem;
+  margin: 32px 0 2px;
+  border: none;
+  padding: 30px 30px;
+  background-color: rgb(122, 121, 121);
+  color: white;
+  border-radius: 5px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  resize: none;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input::placeholder {
+  color: rgb(0, 0, 0, 0.3);
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.input::-webkit-scrollbar {
+  display: none;
+}
+
+.keyboard {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 4px;
+  background-color: gray;
+  color: white;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.keyboard-row {
+  display: flex;
+}
+
+.key {
+  width: 60px;
+  height: 50px;
+  margin: 3px;
+  padding: 5px;
+  color: gray;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.active {
+  width: 60px;
+  height: 50px;
+  margin: 3px;
+  padding: 5px;
+  color: white;
+  background-color: lightgray;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+.keyValue {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.keyValue-two {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Backspace {
+  width: 130px;
+}
+
+.Tab {
+  width: 95px;
+}
+
+.Backslash {
+  width: 95px;
+}
+
+.CapsLock {
+  width: 110px;
+}
+
+.Enter {
+  width: 145px;
+}
+
+.ShiftLeft {
+  width: 140px;
+}
+
+.ShiftRight {
+  width: 180px;
+}
+
+.Space {
+  width: 710px;
+}
+
+.Dotcom {
+  width: 170px;
+}
+
+.At {
+  width: 100px;
+}
